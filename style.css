@@ -4,43 +4,20 @@ body {
 }
 
 h1 {
-  font-family: "Edu AU VIC WA NT Arrows", serif;
-  font-optical-sizing: auto;
-  font-weight: <500>;
-  font-style: normal;
-  text-align: center;
-  background-color: Gainsboro;
-  color: Black;
+ 
 }
 
 h2 {
-  color: AliceBlue;
-  text-align: center;
+  
 }
 
 p {
-  font-family: cardo;
-  font-size: 20px;
-  position: relative;
-  text-align: left;
-  left: 30%;
-  color: White;
-}
+  
 
 div {
-  position: relative;
-  font-family: copperplate;
-  font-size: 20px;
-  color: indigo; 
-  background-color: lavender;
-  opacity: .4;
-  left: 50%;
+  
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  opacity: .75;
+  
 }
