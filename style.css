@@ -1,23 +1,106 @@
+/* style.css for Hope's Dream Site */
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
- background: #ff5454;
-background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 1) 14%, rgba(255, 199, 79, 1) 27%, rgba(255, 255, 135, 1) 44%, rgba(133, 206, 118, 1) 60%, rgba(122, 224, 255, 1) 75%, rgba(135, 181, 255, 1) 88%, rgba(215, 63, 252, 1) 100%);
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
 }
 
-h1 {
- 
+/* HEADER SECTION */
+header {
+  background-color: #fce4ec;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  
+header h1 {
+  font-size: 1.8rem;
+  color: #d81b60;
 }
 
-p {
-  
-
-div {
-  
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #d81b60;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-img {
-  
+nav a:hover {
+  color: #8e24aa;
+}
+
+/* CONNECT BAR */
+.connect-bar {
+  background-color: #e1f5fe;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* MAIN BUTTON LINKS */
+.main-links {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  gap: 2rem;
+}
+
+.link-box {
+  background-color: #fff3e0;
+  border: 2px solid #ffe0b2;
+  padding: 2rem;
+  width: 200px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.link-box:hover {
+  transform: translateY(-5px);
+}
+
+.link-box a {
+  text-decoration: none;
+  color: #fb8c00;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* FOOTER (optional) */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fce4ec;
+  color: #555;
+}
+
+/* Animated Cursor Starter */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #8e24aa;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.1s ease;
+  z-index: 9999;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
 }
