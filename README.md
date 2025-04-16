@@ -1,2 +1,3 @@
 # personal-portfolio
-project 4 / personal artist portfolio 
+Personal artist portfolio 
+(not the assignment!!) 
