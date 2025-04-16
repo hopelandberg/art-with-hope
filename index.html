@@ -3,57 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Art with Hope - Portfolio site of Hope Landberg">
-  <title>Art with Hope</title>
-  <!-- Link to external CSS file -->
+  <title>Art With Hope</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Example of a Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Site Header -->
+
+  <!-- Header with site title and nav -->
   <header>
-    <h1>Art with Hope</h1>
+    <h1>Art With Hope</h1>
     <nav>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="digital-art.html">Digital Art</a></li>
-        <li><a href="art-dump.html">Art Dump</a></li>
-      </ul>
+      <a href="about.html">About</a>
+      <a href="digitalart.html">Digital Art</a>
+      <a href="artdump.html">Art Dump</a>
     </nav>
   </header>
 
-  <!-- Connect Bar (social media or Linktree) -->
-  <section class="connect-bar">
-    <a href="https://linktr.ee/yourname" target="_blank">Connect</a>
-    <!-- Add social icons here later if desired -->
-  </section>
+  <!-- Optional connect bar (socials, email, etc.) -->
+  <div class="connect-bar">
+    Connect with me: @artwithhope | artwithhope@email.com
+  </div>
 
-  <!-- Main Section with Button Links -->
-  <main>
-    <div class="main-buttons">
-      <a href="about.html" class="main-link">About</a>
-      <a href="digital-art.html" class="main-link">Digital Art</a>
-      <a href="art-dump.html" class="main-link">Art Dump</a>
-    </div>
+  <!-- Main section with big button links -->
+  <main class="main-links">
+    <div class="link-box"><a href="about.html">About</a></div>
+    <div class="link-box"><a href="digitalart.html">Digital Art</a></div>
+    <div class="link-box"><a href="artdump.html">Art Dump</a></div>
   </main>
 
-  <!-- Optional: Cursor Script -->
-  <script>
-    // Example starter animated cursor effect
-    const cursor = document.createElement('div');
-    cursor.style.width = '20px';
-    cursor.style.height = '20px';
-    cursor.style.border = '2px solid pink';
-    cursor.style.borderRadius = '50%';
-    cursor.style.position = 'absolute';
-    cursor.style.pointerEvents = 'none';
-    cursor.style.transition = 'transform 0.1s ease';
-    document.body.appendChild(cursor);
+  <!-- Optional footer -->
+  <footer>
+    © 2025 Art With Hope. All rights reserved.
+  </footer>
 
-    document.addEventListener('mousemove', (e) => {
-      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-    });
-  </script>
 </body>
 </html>
