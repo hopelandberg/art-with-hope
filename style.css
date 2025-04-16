@@ -29,6 +29,41 @@ header h1 {
   color: #d81b60;
 }
 
+<!-- CSS for the Gallery Grid (add to your style.css) -->
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.art-piece {
+  text-align: center;
+}
+
+.art-piece img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* CSS for back button */
+.back-button {
+  display: inline-block;
+  margin: 1rem;
+  color: #555;
+  background-color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #e0e0e0;
+}
+
 nav a {
   margin-left: 1rem;
   text-decoration: none;
@@ -99,8 +134,20 @@ footer {
   z-index: 9999;
 }
 
+<!-- 🖱️ CURSOR ANIMATION (Add to end of your CSS) -->
+body {
+  cursor: url('cursor.png'), auto; /* Replace with your custom .png if desired */
+}
+
+/* If you want to animate hover effects visually too */
+a:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.2); }
   100% { transform: scale(1); }
 }
+
