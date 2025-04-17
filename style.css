@@ -110,19 +110,27 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 #projleft {
   width: 50%;
   float: left;
+  padding: 15px;
+  margin: 15px;
 }
 #projright{
   width: 40%;
   float: right;
+  padding: 15px;
+  margin: 15px;
 }
 
 #imgleft {
   width: 50%;
   float: left;
+  padding: 15px;
+  margin: 15px;
 }
 #textright {
   width: 40%;
   float: right;
+  padding: 15px;
+  margin: 15px;
 }
 
 /* test over */
