@@ -85,10 +85,26 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 
 /* testing id types */
 
-#buttons {
+#buttonleft {
   height: 200px;
   width: 30%;
-  background-color: Coral;
+  background-color: AliceBlue;
+  padding: 25%;
+  float: left;
+}
+#buttoncenter {
+  height: 200px;
+  width: 30%;
+  background-color: AliceBlue;
+  padding: 25%;
+  float: center;
+}
+#buttonright {
+  height: 200px;
+  width: 30%;
+  background-color: AliceBlue;
+  padding: 25%;
+  float: right;
 }
 
 /* test over */
