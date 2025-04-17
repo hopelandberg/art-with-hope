@@ -92,10 +92,10 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
   background: MistyRose;
   
 #projleft {
-  width: 50%;
+  width: 40%;
   float: left;
 }
-#projright{
+#projright {
   width: 40%;
   float: right;
 }
