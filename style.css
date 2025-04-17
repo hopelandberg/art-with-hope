@@ -1,9 +1,9 @@
 body {
   /*background-image: url("images/header.png");*/
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
-  font-family: "Patrick Hand", cursive;
+  font-family: "Patrick Hand";
   color: black;
-  font-size: 1.5em; /* 40px/16=2.5em */
+  font-size: 40px */
   margin: 0;
   background-color: MistyRose;
 }
