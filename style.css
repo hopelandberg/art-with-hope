@@ -101,56 +101,30 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 #pageheader {
  padding: 15px;
   margin: 20px;
+  float: center;
   background: MistyRose;
   
 #projleft {
   width: 50%;
   float: left;
-  padding: 15px;
-  margin: 15px;
 }
 #projright{
   width: 40%;
   float: right;
-  padding: 15px;
-  margin: 15px;
 }
 
 #imgleft {
   width: 50%;
   float: left;
-  padding: 15px;
-  margin: 20px;
 }
 #textright {
   width: 40%;
   float: right;
-  padding: 15px;
-  margin: 20px;
 }
 
 /* test over */
 
-.img_right {
-  width: 50%;
-  float: right; /* this is like when you change the alignment in word processing software.
-  if you "float" to the right, then the div aligns the element to the right of the page instead of the left.*/
-}
 
-.img_left {
-  width: 50%;
-  float: left;
-}
-
-.text_right {
-  width: 40%;
-  float: right;
-}
-
-.text_left {
-  width: 40%;
-  float: left;
-}
 
 /* going to test portfolio gallery css from https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp */
 
@@ -159,7 +133,7 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: MistyRose;
   padding: 20px;
   font-family: "Patrick Hand", cursive;
 }
@@ -176,13 +150,13 @@ h1 {
 }
 
 .row {
-  margin: 8px -16px;
+  margin: 8px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 2px;
 }
 
 /* Create four equal columns that floats next to each other */
@@ -200,7 +174,7 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
+  background-color: AliceBlue;
   padding: 10px;
 }
 
