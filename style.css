@@ -85,20 +85,16 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 
 /* testing id types */
 
-#flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-    border: 1px AliceBlue;
-    margin: 0 auto;
+.column {
+  float: left;
+  width: 33.33%;
 }
 
-.flex-item {
-    width: 100px;
-    height: 200px;
-    border: 1px AliceBlue;
-    background: #369;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #projleft {
