@@ -107,6 +107,15 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
   float: right;
 }
 
+#projleft {
+  width: 50%;
+  float: left;
+}
+#projright{
+  width: 40%;
+  float: right;
+}
+
 /* test over */
 
 .img_right {
