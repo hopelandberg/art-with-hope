@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
   font-family: "Patrick Hand", cursive;
   color: black;
-  font-size: 2.5em; /* 40px/16=2.5em */
+  font-size: 1.5em; /* 40px/16=2.5em */
   margin: 0;
   background-color: MistyRose;
 }
