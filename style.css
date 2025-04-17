@@ -85,26 +85,20 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 
 /* testing id types */
 
-#buttonleft {
-  height: 200px;
-  width: 30%;
-  background-color: AliceBlue;
-  padding: 25%;
-  float: left;
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    border: 1px AliceBlue;
+    margin: 0 auto;
 }
-#buttoncenter {
-  height: 200px;
-  width: 30%;
-  background-color: AliceBlue;
-  padding: 25%;
-  float: center;
-}
-#buttonright {
-  height: 200px;
-  width: 30%;
-  background-color: AliceBlue;
-  padding: 25%;
-  float: right;
+
+.flex-item {
+    width: 100px;
+    height: 200px;
+    border: 1px AliceBlue;
+    background: #369;
 }
 
 #projleft {
