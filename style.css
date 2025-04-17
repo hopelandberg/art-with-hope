@@ -104,14 +104,14 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
   float: left;
 }
 
-/* here is the css for h1 font 
+/* here is the css for h1 font */
 .poetsen-one-regular {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-/* here is code for the patrick hand font
+/* here is code for the patrick hand font */
 .patrick-hand-regular {
   font-family: "Patrick Hand", cursive;
   font-weight: 400;
