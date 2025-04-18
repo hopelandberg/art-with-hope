@@ -111,6 +111,10 @@ ul, ol {
   color: DarkOrange;
 }
 
+.topnavhome a.active {
+  background-color: #D0F0C0;
+  color: HotPink;
+
 
 
 /* test over */
