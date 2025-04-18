@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
   font-family: "Patrick Hand";
   color: black;
-  font-size: 40px */
+  font-size: 40px;
   margin: 0;
   background-color: MistyRose;
 }
@@ -93,7 +93,7 @@ background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 
 }
   
 #projleft {
-  width: 30% 
+  width: 30% ;
   float: left;
 }
 #projright {
