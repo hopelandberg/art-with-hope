@@ -1,3 +1,24 @@
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: DarkOrchid;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: Cornsilk ;
+  color: DarkOrange;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #D0F0C0;
+  color: HotPink;
+}
+
 body {
   /*background-image: url("images/header.png");*/
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
@@ -58,62 +79,6 @@ ul, ol {
   width: 100%;
   /* "100%" makes the image the full width of the webpage.*/
 }
-
-/* testing top nav css
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: Lavender;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: DarkOrchid;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: Cornsilk ;
-  color: DarkOrange;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #D0F0C0;
-  color: HotPink;
-}
-
-.topnavhome {
-  background-color: Lavender;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnavhome a {
-  float: left;
-  color: DarkOrchid;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-/* Change the color of links on hover */
-.topnavhome a:hover {
-  background-color: Cornsilk ;
-  color: DarkOrange;
-}
-
-.topnavhome a.active {
-  background-color: #D0F0C0;
-  color: HotPink;
-
 
 
 /* test over */
