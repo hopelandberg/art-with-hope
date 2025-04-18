@@ -19,6 +19,35 @@
   color: HotPink;
 }
 
+#imgleft {
+  width: 40%;
+  float: left;
+}
+#textright {
+  width: 40%;
+  float: right;
+}
+#projtop {
+  width: 50% ;
+}
+#projbottom {
+  width: 30% ;
+}
+#projmiddle{
+  width: 40% ;
+}
+#pageheader {
+ padding: 15px;
+  margin: 20px;
+  float: center;
+  background: #D0F0C0;
+}
+/* about divs below */
+
+#instagram {
+  float: Center;
+}
+
 body {
   /*background-image: url("images/header.png");*/
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
@@ -79,46 +108,6 @@ ul, ol {
   width: 100%;
   /* "100%" makes the image the full width of the webpage.*/
 }
-
-
-/* test over */
-
-/* testing id types */
-
-#pageheader {
- padding: 15px;
-  margin: 20px;
-  float: center;
-  background: MistyRose;
-}
-  
-#projleft {
-  width: 30% ;
-  float: left;
-}
-#projright {
-  width: 40%;
-  float: right;
-}
-
-/* about divs below */
-  
-#imgleft {
-  width: 50%;
-  float: left;
-}
-#textright {
-  width: 40%;
-  float: right;
-}
-
-#instagram {
-  float: Center;
-}
-
-/* test over */
-
-
 
 /* going to test portfolio gallery css from https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp */
 
