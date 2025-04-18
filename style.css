@@ -50,14 +50,6 @@ ul, ol {
   padding: 10px;
   text-align: center;
 
-#indexpagetitle {
-  background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 1) 14%, rgba(255, 199, 79, 1) 27%, rgba(255, 255, 135, 1) 44%, rgba(133, 206, 118, 1) 60%, rgba(122, 224, 255, 1) 75%, rgba(135, 181, 255, 1) 88%, rgba(215, 63, 252, 1) 100%);
-  margin: 0px;
-  padding: 10px;
-  text-align: center;
-  font-size: 50px;
-}
-
 #bkgnd {
   position: fixed;
   /* "fixed" makes sure that the background stays in one place even if you scroll.*/
@@ -98,7 +90,7 @@ ul, ol {
 }
 
 .topnavhome {
-  background-color: #FFD700;
+  background-color: Lavender;
   overflow: hidden;
 }
 
@@ -109,7 +101,7 @@ ul, ol {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* Change the color of links on hover */
@@ -144,6 +136,8 @@ ul, ol {
   float: right;
 }
 
+/* about divs below */
+  
 #imgleft {
   width: 50%;
   float: left;
