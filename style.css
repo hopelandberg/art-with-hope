@@ -27,17 +27,17 @@ p {
 
 h1 {
   font-family: 'Poetsen One';
-  font-size: 40;
+  font-size: 40px;
 
 }
 
 h2 {
-  font-size: 30;
+  font-size: 30px;
 }
 
 h3 {
   font-family: 'Poetsen One';
-  font-size: 20;
+  font-size: 20px;
 }
 
 ul, ol {
@@ -49,6 +49,13 @@ ul, ol {
   margin: 0px;
   padding: 10px;
   text-align: center;
+
+#indexpagetitle {
+  background: linear-gradient(90deg, rgba(255, 84, 84, 1) 0%, rgba(255, 143, 219, 1) 14%, rgba(255, 199, 79, 1) 27%, rgba(255, 255, 135, 1) 44%, rgba(133, 206, 118, 1) 60%, rgba(122, 224, 255, 1) 75%, rgba(135, 181, 255, 1) 88%, rgba(215, 63, 252, 1) 100%);
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
 }
 
 #bkgnd {
@@ -91,7 +98,7 @@ ul, ol {
 }
 
 .topnavhome {
-  background-color: Lavender;
+  background-color: #FFD700;
   overflow: hidden;
 }
 
@@ -102,7 +109,7 @@ ul, ol {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 /* Change the color of links on hover */
