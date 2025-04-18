@@ -3,7 +3,7 @@ body {
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
   font-family: "Patrick Hand";
   color: black;
-  font-size: 40px;
+  font-size: 17px;
   margin: 0;
   background-color: MistyRose;
 }
@@ -25,8 +25,19 @@ p {
   background: MistyRose;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Poetsen One';
+  font-size: 40;
+
+}
+
+h2 {
+  font-size: 30;
+}
+
+h3 {
+  font-family: 'Poetsen One';
+  font-size: 20;
 }
 
 ul, ol {
@@ -38,7 +49,6 @@ ul, ol {
   margin: 0px;
   padding: 10px;
   text-align: center;
-  font-family: 'Poetsen One';
 }
 
 #bkgnd {
@@ -65,7 +75,7 @@ ul, ol {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -76,9 +86,32 @@ ul, ol {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: DarkSeaGreen;
+  background-color: #D0F0C0;
   color: HotPink;
 }
+
+.topnavhome {
+  background-color: Lavender;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnavhome a {
+  float: left;
+  color: DarkOrchid;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+/* Change the color of links on hover */
+.topnavhome a:hover {
+  background-color: Cornsilk ;
+  color: DarkOrange;
+}
+
+
 
 /* test over */
 
