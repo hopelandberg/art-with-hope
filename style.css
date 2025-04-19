@@ -48,6 +48,10 @@
   float: center;
   background: #D0F0C0;
 }
+
+#header {
+  background: #FFC74F;
+}
 /* about divs below */
 
 #instagram {
