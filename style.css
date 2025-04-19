@@ -47,10 +47,18 @@
 #instagram {
   float: Center;
 }
+#background {
+  background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
+  height: 100dvh;
+  width: 100dvw;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  z-index: -1;
+}
 
 body {
   /*background-image: url("images/header.png");*/
-  background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
   font-family: "Patrick Hand";
   color: black;
   font-size: 17px;
