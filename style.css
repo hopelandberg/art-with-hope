@@ -1,3 +1,8 @@
+.projectrow {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   color: DarkOrchid;
@@ -56,6 +61,7 @@
   margin: 0px;
   z-index: -1;
 }
+
 
 body {
   /*background-image: url("images/header.png");*/
