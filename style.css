@@ -52,6 +52,26 @@
 #header {
   background: #FFC74F;
 }
+
+.gallery{
+    display: inline-block;
+    border: 1px solid #D0F0C0;
+    margin: 5px;
+    width: 200px;
+    background-color: LavenderBlush;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid orange;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
 /* about divs below */
 
 #instagram {
