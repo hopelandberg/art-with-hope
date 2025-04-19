@@ -1,6 +1,7 @@
 .projectrow {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* Style the links inside the navigation bar */
@@ -33,13 +34,13 @@
   float: right;
 }
 #projtop {
-  width: 50% ;
+  width: 70% ;
 }
 #projbottom {
   width: 30% ;
 }
 #projmiddle{
-  width: 40% ;
+  width: 50% ;
 }
 #pageheader {
  padding: 15px;
