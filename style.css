@@ -51,7 +51,7 @@
   background-image: linear-gradient(Lavender, LemonChiffon, LavenderBlush);
   height: 100dvh;
   width: 100dvw;
-  position: absolute;
+  position: fixed;
   padding: 0px;
   margin: 0px;
   z-index: -1;
