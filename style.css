@@ -120,6 +120,7 @@ body {
   font-size: 17px;
   margin: 0;
   background-color: MistyRose;
+  cursor: url('assets/icons/brush1.svg'), auto;
 }
 
 div {
