@@ -4,6 +4,18 @@
   flex-wrap: wrap;
 }
 
+div.scroll-container {
+  background-color: #D0F0C0;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 20px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 60%;
+  height: auto;
+} 
 .galleryrow {
   display: flex;
   flex-wrap: wrap;
