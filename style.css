@@ -4,6 +4,11 @@
   flex-wrap: wrap;
 }
 
+.galleryrow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   color: DarkOrchid;
@@ -54,7 +59,9 @@
 }
 
 .gallery{
-    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
     border: 1px solid #D0F0C0;
     margin: 5px;
     width: 200px;
